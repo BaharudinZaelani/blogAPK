@@ -120,6 +120,7 @@ a {
 @media screen and (max-width: 680px) {
     .sec-1 {
         display: block;
+        margin-bottom: 23px;
     }
     .header-image div {
         top: 5vh;
