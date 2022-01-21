@@ -1,7 +1,8 @@
 $(document).ready(() => {
     // started
+    alert('zaw')
+    $(".content .sparator a img").addClass("img-fluid")
     if( $.cookie('dark') ){
-        // alert('zaws')
         $('#dark').attr("checked", "true")
         dark(true)
     }else {
@@ -9,7 +10,6 @@ $(document).ready(() => {
         dark(false)
     }
 
-$(".content .sparator a img").toggleClass("img-fluid")
 
 
     // dark mode
