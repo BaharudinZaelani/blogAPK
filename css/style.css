@@ -149,7 +149,7 @@ a {
     .tools {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        width: 70vw;
+        /* width: 70vw; */
         position: fixed;
         bottom: 10px;
         background-color: #e6e6e6;
