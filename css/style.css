@@ -115,6 +115,10 @@ a {
     text-decoration: none;
     color: black;
 }
+/* siebar */
+.sidebar ul {
+    list-style-type: none;
+}
 
 /* mobile version */
 @media screen and (max-width: 680px) {
