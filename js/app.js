@@ -9,6 +9,8 @@ $(document).ready(() => {
         dark(false)
     }
 
+$(".content img").toggleClass("img-fluid")
+
 
     // dark mode
     $('#dark').click(()=>{
