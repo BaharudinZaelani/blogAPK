@@ -128,9 +128,6 @@ img.k-img{
     object-fit: cover !important;
     object-position: center !important;
   }
-.content div {
-    text-align: justify;
-}
 /* mobile version */
 @media screen and (max-width: 680px) {
     .sec-1 {
