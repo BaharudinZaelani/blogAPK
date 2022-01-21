@@ -120,9 +120,6 @@ a {
     list-style-type: none;
 }
 /* content */
-.content img:nth-child(1) {
-    display: none;
-}
      
 img.k-img{
     width: 100% !important;
