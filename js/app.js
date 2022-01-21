@@ -33,7 +33,6 @@ $(document).ready(() => {
             $('.navbar').toggleClass('bg-light')
             $('.navbar').toggleClass('navbar-dark')
             $('.navbar').toggleClass('bg-dark')
-            $('.nav-zaw').css('background', '#111')
 
             // title
             $('a.navbar-brand').toggleClass('navbar-brand-dark')
