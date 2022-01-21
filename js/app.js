@@ -33,6 +33,7 @@ $(document).ready(() => {
             $('.navbar').toggleClass('bg-light')
             $('.navbar').toggleClass('navbar-dark')
             $('.navbar').toggleClass('bg-dark')
+            $('.dropdown-menu').css("background-color", "#212529")
 
             // title
             $('a.navbar-brand').toggleClass('navbar-brand-dark')
