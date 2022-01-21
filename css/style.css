@@ -124,11 +124,11 @@ a {
     display: none;
 }
      
-.post-outer img:nth-child(1){
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    object-position: bottom;
+.k-img{
+    width: 100% !important;
+    height: 300px !important;
+    object-fit: cover !important;
+    object-position: bottom !important;
   }
 div#blog-pager span {
     padding: 5px;
