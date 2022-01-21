@@ -1,7 +1,7 @@
+
+    $(".sparator a img").addClass("img-fluid")
 $(document).ready(() => {
     // started
-    alert('zaw')
-    $(".content .sparator a img").addClass("img-fluid")
     if( $.cookie('dark') ){
         $('#dark').attr("checked", "true")
         dark(true)
