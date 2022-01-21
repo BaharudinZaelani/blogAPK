@@ -130,11 +130,6 @@ img.k-img{
     object-fit: cover !important;
     object-position: center !important;
   }
-div#blog-pager span {
-    padding: 5px;
-    border: 2.2px solid #30303061;
-    border-radius: 6px;
-}
 /* mobile version */
 @media screen and (max-width: 680px) {
     .sec-1 {
