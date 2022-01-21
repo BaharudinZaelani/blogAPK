@@ -118,6 +118,7 @@ a {
 /* siebar */
 .sidebar ul {
     list-style-type: none;
+    padding: 0;
 }
 /* content */
      
