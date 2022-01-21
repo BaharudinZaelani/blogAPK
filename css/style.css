@@ -119,7 +119,10 @@ a {
 .sidebar ul {
     list-style-type: none;
 }
-
+/* content */
+.content img:nth-child(1) {
+    display: none;
+}
 /* mobile version */
 @media screen and (max-width: 680px) {
     .sec-1 {
