@@ -44,6 +44,8 @@ $(document).ready(() => {
             $('.bg-light').toggleClass('bg-dark')
             $('a').css('color', 'white')
 
+            $('.content').css('color', 'white !important')
+
         }
     }   
 

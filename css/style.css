@@ -6,8 +6,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .body-dark{
-    background-color: rgb(32, 32, 32);
-    color: white;
+    background-color: rgb(20, 20, 20);
+    color: white !important;
 }
 
 /* header */
@@ -161,10 +161,11 @@ a {
         box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
         border-radius: 18px;
     }
-    .tools a,div {
-        color: black;
+    .tools .nav-link {
+        color: black !important;
     }
-    .tools a:nth-child(2){
+    .tools .nav-link:nth-child(2){
+        color: black !important;
         text-align: center;
     }
 }
