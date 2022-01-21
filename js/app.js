@@ -9,7 +9,7 @@ $(document).ready(() => {
         dark(false)
     }
 
-$(".content img").toggleClass("img-fluid")
+$(".content .sparator a img").toggleClass("img-fluid")
 
 
     // dark mode
