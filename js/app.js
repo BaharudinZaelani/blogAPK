@@ -61,10 +61,6 @@ $(document).ready(() => {
             $('.totop').css('bottom', '-112px')
         }
     })
-    
-    
-    // sparator content
-    $('.separator img')[0].css('display', 'none')
 
 
 })
