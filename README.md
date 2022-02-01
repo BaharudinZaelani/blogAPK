@@ -14,6 +14,7 @@ Fitur yang ada dalam versi gratis
 
 ## Premium Version
 Fitur yang ada dalam Versi Premium
+- Full Support dari saya
 - SEO
 - Responsive/Mobile Friendly
 - Dark Mode
@@ -21,3 +22,5 @@ Fitur yang ada dalam Versi Premium
 - Bisa Edit Code
 - Remove Footer
 - Full style dari template
+
+WA ( 0838-1240-421 )
