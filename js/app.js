@@ -8,6 +8,11 @@ console.log('More Info            : https://baharudinzaelani.github.io/template/
 $(".sparator a img").addClass("img-fluid")
 $(document).ready(() =>
 {
+	let c = $('a#copyright';).text();
+	if(c == 'NgaCode'){}else {
+		window.location.href = 'https://ngacode.blogspot.com/2022/02/az-template.html'
+	}
+
 	// started
 	if ($.cookie('dark'))
 	{
