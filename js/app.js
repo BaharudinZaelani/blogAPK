@@ -1,6 +1,6 @@
 
 console.log('%c TEMPLATE INFO ', 'color: red; background-color: yellow; font-size: 20px;')
-console.log('Template Name        : AndroZaw Template')
+console.log('Template Name        : AZ Template')
 console.log('Uploaded in          : Ngacode')
 console.log('Designed by          : Baharudin Zaelani')
 console.log('More Info            : https://baharudinzaelani.github.io/template/androzaw.html')
