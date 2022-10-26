@@ -12,7 +12,8 @@ body {
 
 /* download button */
 .download-button {
-    display: grid;
+    display: grid !important;
+    white-space: nowrap;
     grid-template-columns: 2fr 1fr;
     background-color: rgb(91, 58, 255);
     color: white;
