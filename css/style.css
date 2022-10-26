@@ -146,6 +146,7 @@ body {
 a {
     text-decoration: none;
     color: black;
+    display: inline !important;
 }
 /* siebar */
 .sidebar ul {
