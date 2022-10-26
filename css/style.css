@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
-    /* transition: 0.6s; */
+    transition: 0.6s;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -8,6 +8,38 @@ body {
 .body-dark{
     background-color: rgb(20, 20, 20);
     color: white !important;
+}
+
+/* download button */
+.download-button {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: rgb(91, 58, 255);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.download-button span{
+    padding: 12px;
+}
+.download-button div {
+    border-radius: 6px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(65, 33, 226);
+}
+.download-button svg {
+    transform: scale(1.7);
+    margin-top: -27px;
+    opacity: 0;
+    transition: 0.4s;
+}
+.download-button:hover svg {
+    margin-top: 0;
+    opacity: 1;
+    transition: 0.4s;
 }
 
 /* header */
