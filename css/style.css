@@ -14,7 +14,7 @@ body {
 .download-button {
     display: grid !important;
     white-space: nowrap;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 80px;
     background-color: rgb(91, 58, 255);
     color: white;
     font-weight: bold;
