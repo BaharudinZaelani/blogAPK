@@ -14,6 +14,7 @@ body {
 .download-button {
     display: grid !important;
     white-space: nowrap;
+overflow: auto;
     grid-template-columns: 2fr 80px;
     background-color: rgb(91, 58, 255);
     color: white;
