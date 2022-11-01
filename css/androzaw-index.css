@@ -1,0 +1,108 @@
+/* color plater */
+/* https://colorhunt.co/palette/b1b2ffaac4ffd2daffeef1ff */
+/* reference */
+/* https://www.togeproductions.com/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #B1B2FF;
+    outline: 0 m !important;
+    border-radius: 12px;
+}
+
+* {
+    transition: 0.4s !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    background-color: #D2DAFF !important;
+}
+header {
+    padding: 24px;
+    background-color: #D2DAFF;
+}
+header .container {
+    display: flex !important;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+@media screen and (max-width: 840px) {
+    header .container {
+        flex-direction: column !important;
+    }
+}
+header .container a {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white !important;
+    text-decoration: none;
+}
+header .container a h3 {
+    padding-top: 5px;
+    margin: 0 !important;
+    display: inline !important;
+}
+header .container ul {
+    list-style: none;
+    display: flex !important;
+    text-align: center;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+header .container ul li {
+    margin: 0 12px;
+}
+.header-scroll-modif {
+    padding: 23px;
+    background-color: #AAC4FF;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header-scroll-modif .container a {
+    /* padding-right: 1rem;
+    padding-left: 1rem; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white !important;
+    text-decoration: none;
+}
+
+/* footer */
+footer {
+    padding: 30px 0 27px 0;
+    font-size: 1.1rem;
+    background-color: #AAC4FF;
+    
+}
+footer .row .col-md {
+    padding: 0 !important;
+}
+.sosmed {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+footer .f-icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    transform: scale(1.1);
+    grid-gap: 7px;
+}
