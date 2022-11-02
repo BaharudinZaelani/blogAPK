@@ -34,6 +34,10 @@ header .container {
     header .container {
         flex-direction: column !important;
     }
+    footer div {
+        justify-content: center;
+        text-align: center;
+    }
 }
 header .container .logo {
     color: #fff;
