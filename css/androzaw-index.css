@@ -1,8 +1,3 @@
-/* color plater */
-/* https://colorhunt.co/palette/b1b2ffaac4ffd2daffeef1ff */
-/* reference */
-/* https://www.togeproductions.com/ */
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
 body::-webkit-scrollbar {
     width: 1em;
@@ -15,19 +10,18 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
     background-color: #B1B2FF;
     outline: 0 m !important;
-    border-radius: 12px;
+    /* border-radius: 12px; */
 }
 
 * {
     transition: 0.4s !important;
     font-family: 'Josefin Sans', sans-serif;
 }
-body {
-    background-color: #D2DAFF !important;
-}
 header {
     padding: 24px;
-    background-color: #D2DAFF;
+    /* background-color: #D2DAFF; */
+    background-color: #e1e1e1;
+    border-bottom: 1px solid #2e2e2e98;
 }
 header .container {
     display: flex !important;
@@ -41,15 +35,21 @@ header .container {
         flex-direction: column !important;
     }
 }
+header .container .logo {
+    color: #fff;
+}
+header .container a:hover {
+    color: rgb(41, 41, 41);
+}
 header .container a {
-    padding-right: 2rem;
-    padding-left: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem 1rem;
     display: flex;
     align-items: center;
     text-align: center;
-    color: white !important;
+    color: #000;
     text-decoration: none;
 }
 header .container a h3 {
@@ -65,30 +65,25 @@ header .container ul {
     margin: 0 !important;
     padding: 0 !important;
 }
-header .container ul li {
-    margin: 0 12px;
-}
 .header-scroll-modif {
     padding: 23px;
-    background-color: #AAC4FF;
+    /* background-color: #AAC4FF; */
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .header-scroll-modif .container a {
-    /* padding-right: 1rem;
-    padding-left: 1rem; */
+    padding-top: 0;
+    padding-bottom: 0;
     display: flex;
     align-items: center;
     text-align: center;
-    color: white !important;
     text-decoration: none;
 }
-
 /* footer */
 footer {
     padding: 30px 0 27px 0;
     font-size: 1.1rem;
-    background-color: #AAC4FF;
+    /* background-color: #AAC4FF; */
     
 }
 footer .row .col-md {
@@ -99,10 +94,25 @@ footer .row .col-md {
     align-items: end;
     justify-content: end;
 }
+footer a {
+    color: #fff !important;
+}
 footer .f-icon {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
-    transform: scale(1.1);
-    grid-gap: 7px;
+    transform: scale(1.4);
+    grid-gap: 17px;
+}
+
+/* section */
+.about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #e1e1e1;
+}
+.about h1 {
+    font-weight: bold;
 }
