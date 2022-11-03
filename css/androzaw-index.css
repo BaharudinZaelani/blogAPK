@@ -34,9 +34,8 @@ header .container {
     header .container {
         flex-direction: column !important;
     }
-    footer div {
-        justify-content: center;
-        text-align: center;
+    footer .col-md.ml-auto.sosmed {
+        justify-content: center !important;
     }
 }
 header .container .logo {
