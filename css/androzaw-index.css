@@ -151,3 +151,26 @@ footer .f-icon {
     object-fit: cover;
     object-position: top;
 }
+
+/* responsive */
+@media screen and (max-width: 776px) {
+    .items {
+        grid-template-columns: 1fr !important;
+    }
+    header .container a {
+        padding: 0rem 1rem;
+    }
+    /* font */
+    .display-3 {
+        font-size: calc(1rem + 3.3vw);
+    }
+    .display-6 {
+        font-size: calc(0.8rem + 1.5vw);
+    }
+    .header-scroll-modif {
+        padding: 9px;
+    }
+    li.child-nav {
+        margin-top: 12px;
+    }
+}
