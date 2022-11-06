@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
     width: 1em;
 }
 
-body::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-body::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background-color: #B1B2FF;
     outline: 0 m !important;
     /* border-radius: 12px; */
@@ -134,10 +134,16 @@ footer .f-icon {
 }
 .items {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 290px);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 12px;
+}
+.items .card .card-body {
+    max-height: 280px;
+    overflow: auto;
 }
 .items .card:hover {
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 .items .card:hover img {
     object-position: bottom;
