@@ -9,7 +9,7 @@ $(window).scroll(function (event) {
 
 $(document).ready(()=> {
     // get project
-    axios.get("https://zawtea.000webhostapp.com/api/v1/project").then(function(res){
+    axios.get('/js/data/cdtProject.json').then(function(res){
         // res.data
         // console.log(res.data.data[0]);
         $("#loop").html("")
@@ -18,5 +18,5 @@ $(document).ready(()=> {
             $("#loop").append('<a href="'+ res.data.data[i].link +'" target="_blank" class="card"> <img src="'+ res.data.data[i].image +'" alt="'+ res.data.data[i].name +'" class="img-fluid"> <div class="card-body"> <h2>'+ res.data.data[i].name +'</h2> <p>'+ res.data.data[i].description +'</p> </div> </a>');
             i++;
         }
-    });
+    })
 })
