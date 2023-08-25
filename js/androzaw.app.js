@@ -9,7 +9,7 @@ $(window).scroll(function (event) {
 
 $(document).ready(()=> {
     // get project
-    axios.get('https://bahardev.my.id/blogAPK/js/data/cdtProject.json').then(function(res){
+    axios.get('https://www.bahardev.my.id/blogAPK/js/data/cdtProject.json').then(function(res){
         // res.data
         // console.log(res.data.data[0]);
         $("#loop").html("")
