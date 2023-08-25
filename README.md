@@ -1,5 +1,3 @@
-![Az Template](/image.png "AZ Template - Piew")
-
 # blogAPK
 This is cdn repository for my blogger template this repo free to use anyone.
 
@@ -11,7 +9,8 @@ https://baharudinzaelani.github.io/blogApk/css/filename.css
 ``
 https://baharudinzaelani.github.io/blogApk/js/filename.js
 ``
+
 # Links
-- [Androzaw Main Home](https://androzaw.tech/)
+- [Main Home](https://cicak.bahardev.my.id/)
 - [Androzaw Blog](https://androzaw.blogspot.com/)
-- [Ngacode](https://ngacode.androzaw.tech/)
+- [Ngacode](https://ngacode.bahardev.my.id/)
