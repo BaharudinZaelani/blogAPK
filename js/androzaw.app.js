@@ -22,14 +22,14 @@ function getProject() {
 		"data": [
 			{
 				"id": "1",
-				"image": "https://www.bahardev.my.id/image/zawnime.png",
+				"image": "https://baharudinzaelani.github.io/blogAPK/image/zawnime.png",
 				"name": "ZawNIME",
 				"description": "ZStream App Adalah situs streaming/download anime bersubtitle indonesia, semua proses pembuatan website upload anime di lakukan oleh dua orang.",
 				"link": "https://thezaww.blogspot.com/2022/07/streaming-anime.html"
 			},
 			{
 				"id": "3",
-				"image": "https://www.bahardev.my.id/image/bloggerapi.png",
+				"image": "https://baharudinzaelani.github.io/blogAPK/image/bloggerapi.png",
 				"name": "Blogger Api - ZawBLOG Project",
 				"description": "ZawBLOG adalah project saya setelah ZawNIME/ZStream App, Dimana project ini saya mendapatkan ide dari pengalaman saya dari ngeblog blogger. Disaat saya upload artikel ke blogger itu sangat susah harus tempel-tempel template dari artikel sebelumnya, dikarenakan itu sangat menjengkelkan dan sangat ribet untuk disunting.",
 				"link": "https://thezaww.blogspot.com/2022/09/blogger-api-zawblog-project.html"
