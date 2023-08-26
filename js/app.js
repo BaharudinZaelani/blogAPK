@@ -40,6 +40,7 @@ $(document).ready(()=> {
 		}
 	})
 })
+
 // Function 
 function dark(cond) {
 	if (cond) {
