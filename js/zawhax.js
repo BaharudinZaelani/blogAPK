@@ -12,6 +12,10 @@ $(document).ready(()=> {
         $(this).addClass("shadow");
         $(this).addClass("p-4");
     });
+    $(".download").each(function() {
+        $(this).addClass("btn");
+        $(this).addClass("btn-primary");
+    });
     $("#header-inner").addClass("shadow");
     $("#header-inner").addClass("rounded");
 })
