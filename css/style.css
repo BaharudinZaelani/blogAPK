@@ -14,7 +14,6 @@ body {
 .download-button {
     display: grid !important;
     white-space: nowrap;
-overflow: auto;
     grid-template-columns: 2fr 80px;
     background-color: rgb(91, 58, 255);
     color: white;
@@ -22,6 +21,8 @@ overflow: auto;
     text-decoration: none;
     border-radius: 6px;
     width: max-content;
+	justify-content: center;
+	align-items: center;
 }
 .download-button span{
     padding: 12px;
@@ -35,7 +36,6 @@ overflow: auto;
 }
 .download-button svg {
     transform: scale(2);
-    margin-top: -27px;
     opacity: 0;
     transition: 0.4s;
 }
