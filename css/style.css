@@ -23,6 +23,7 @@ body {
     width: max-content;
 	justify-content: center;
 	align-items: center;
+	padding: 0 12px;
 }
 .download-button span{
     padding: 12px;
@@ -36,7 +37,7 @@ body {
 }
 .download-button svg {
     transform: scale(2);
-    opacity: 0;
+    opacity: 1;
     transition: 0.4s;
 }
 .download-button:hover svg {
