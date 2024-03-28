@@ -21,6 +21,7 @@ overflow: auto;
     font-weight: bold;
     text-decoration: none;
     border-radius: 6px;
+    width: max-content;
 }
 .download-button span{
     padding: 12px;
@@ -33,7 +34,7 @@ overflow: auto;
     background-color: rgb(65, 33, 226);
 }
 .download-button svg {
-    transform: scale(1.7);
+    transform: scale(2);
     margin-top: -27px;
     opacity: 0;
     transition: 0.4s;
