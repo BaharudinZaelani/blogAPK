@@ -39,6 +39,11 @@ $(document).ready(()=> {
 			$('.totop').css('bottom', '-112px')
 		}
 	})
+
+	// image DOM
+	$("img").each(function() {
+		$(this).wrap('<div class="img-thumbnail" style="width: 100%;"></div>');
+	});	
 })
 
 // Function 
