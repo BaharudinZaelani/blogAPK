@@ -13,7 +13,6 @@ body {
 /* download button */
 .download-button {
     display: grid !important;
-    white-space: nowrap;
     grid-template-columns: 2fr 80px;
     background-color: rgb(91, 58, 255);
     color: white;
@@ -24,6 +23,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	padding: 0 12px;
+	margin: 0 auto;
 }
 .download-button span{
     padding: 12px;
