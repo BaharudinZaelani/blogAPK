@@ -1,3 +1,9 @@
 .post-body p {
     text-align: justify !important;
 }
+.post-footer {
+    box-shadow: unset !important;
+}
+.separator a img {
+    width: auto !important;
+}

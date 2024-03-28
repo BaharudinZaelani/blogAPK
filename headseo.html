@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <b:if cond='data:view.isPage'>
+        <title>BaharDev...</title>
+        <b:else/>
+            <title>
+                <b:if cond='data:blog.pageType == &quot;index&quot;'>
+                    <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                        <data:blog.pageName/> | <data:blog.title/>
+                    <b:else/>
+                        <data:blog.pageTitle/> | Download Aplikasi Gratis
+                    </b:if>
+                <b:else/>
+                    <data:blog.pageName/> | <data:blog.title/>
+                </b:if>
+            </title>
+    </b:if>
+    <!-- Description and Keywords (start) -->
+    <b:if cond='data:view.isHomepage'>
+        <meta expr:content='data:blog.title + &quot;, Unduh aplikasi PC, Unduh aplikasi Android, Aplikasi gratis PC, Aplikasi gratis Android, Download software PC, Download game PC, Aplikasi terbaru PC, Aplikasi terpopuler Android, Situs unduhan aplikasi PC dan Android, Tempat download aplikasi terpercaya&quot;' name='keywords'/>
+        <b:if cond='data:blog.metaDescription'>
+        <meta expr:content='data:blog.metaDescription' name='description'/>
+        </b:if>
+    </b:if>
+    <b:if cond='data:view.isPost'>
+        <meta expr:content='data:blog.pageName + &quot;, Unduh aplikasi PC, Unduh aplikasi Android, Aplikasi gratis PC, Aplikasi gratis Android, Download software PC, Download game PC, Aplikasi terbaru PC, Aplikasi terpopuler Android, Situs unduhan aplikasi PC dan Android, Tempat download aplikasi terpercaya, Aplikasi premium PC, Aplikasi premium Android, Aplikasi crack PC, Aplikasi mod Android, Aplikasi ringan PC, Aplikasi offline Android, Situs resmi unduhan aplikasi, Aplikasi gratis untuk Windows, Aplikasi gratis untuk Android, Aplikasi populer untuk PC dan Android&quot;' name='keywords'/>
+        <b:if cond='data:blog.metaDescription'>
+        <meta expr:content='data:blog.metaDescription' name='description'/>
+        </b:if>
+    </b:if>
+    <!-- Description and Keywords (end) -->
+    <b:if cond='data:view.isHomepage'>
+        <meta content='https://bahardev.my.id/blogAPK/image/indonesia.png' property='og:image'/>
+    </b:if>
+    <b:if cond='data:view.isMultipleItems'>
+        <b:if cond='data:view.isLabelSearch'>
+            <meta content='noindex,nofollow' name='robots'/>
+        </b:if>
+    </b:if>
+    <b:if cond='data:view.isArchive'>
+        <meta content='noindex,nofollow' name='robots'/>
+    </b:if>
+    <b:if cond='data:view.isSingleItem'>
+        <meta expr:content='data:blog.url' property='og:url'/>
+        <b:else/>  
+            <meta expr:content='data:blog.homepageUrl' property='og:url'/>
+    </b:if>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+    <link expr:href='data:blog.homepageUrl' hreflang='x-default' rel='alternate'/>
+    <meta content='Indonesia' name='geo.placename'/>
+    <meta content='TheZaww' name='Author'/>
+    <meta content='id' name='geo.country'/>
+    <meta content='en_US' property='og:locale'/>
+    <meta content='en_GB' property='og:locale:alternate'/>
+    <meta content='id_ID' property='og:locale:alternate'/>
+    <meta content='all' name='robots'/>
+    <meta content='index, follow' name='robots'/>
+    <b:if cond='data:blog.pageType == &quot;item&quot;'>
+        <meta expr:content='data:blog.pageName' property='og:title'/>
+        <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+        <meta content='article' property='og:type'/>
+    </b:if>
+    <b:if cond='data:blog.postImageUrl'>
+        <meta expr:content='data:blog.postImageUrl' property='og:image'/>
+        <b:else/>
+        <b:if cond='data:blog.postImageThumbnailUrl'>
+            <meta expr:content='data:blog.postImageThumbnailUrl' property='og:image'/>
+        </b:if>
+    </b:if>
+    <b:if cond='data:blog.metaDescription != &quot;&quot;'>
+        <meta expr:content='data:blog.metaDescription' property='og:description'/>
+    </b:if>
+    <meta expr:content='data:blog.title' property='og:site_name'/>
+    <meta expr:content='data:blog.homepageUrl' name='twitter:domain'/>
+    <meta expr:content='data:blog.pageName' name='twitter:title'/>
+    <b:if cond='data:blog.postImageUrl'>
+        <meta content='summary_large_image' name='twitter:card'/>
+        <meta expr:content='data:blog.postImageUrl' name='twitter:image'/>
+        <b:else/>
+        <meta content='summary' name='twitter:card'/>
+        <b:if cond='data:blog.postImageThumbnailUrl'>
+            <meta expr:content='data:blog.postImageThumbnailUrl' name='twitter:image'/> 
+        </b:if>
+    </b:if>
+    <meta expr:content='data:blog.pageName' name='twitter:title'/>
+    <b:if cond='data:blog.metaDescription'>
+        <meta expr:content='data:blog.metaDescription' name='twitter:description'/>
+    </b:if>
+    <meta expr:content='data:blog.canonicalUrl' name='twitter:url'/>
+    
+</head>
+<body>
+    
+</body>
+</html>
