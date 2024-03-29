@@ -201,12 +201,6 @@ img.k-img{
     li.dropdown-item a {
         white-space: normal !important;
     }
-    .dropdown-menu .section {
-        width: 70% !important;
-        background-color: transparent !important;
-        border-radius: 0 !important;
-        margin-top: -7px !important;
-    }
     .navbar-light .navbar-nav .nav-link {
         display: grid !important;
         align-content: center;
@@ -221,11 +215,27 @@ img.k-img{
         flex-wrap: nowrap;
     }
     .navbar-nav .dropdown-menu {
-        background-color: #0000005e !important;
         top: 0;
         right: 0 !important;
         bottom: 0 !important;
         z-index: -1 !important;
+    }
+    .dropdown-menu .section {
+        width: 100%;
+        background-color: transparent !important;
+        border-radius: 0 !important;
+        margin-top: -7px !important;
+    }
+    .navbar-nav .dropdown-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0 !important;
+        width: 80%;
+        margin: inherit;
+        background-color: white !important;
+        border-radius: 0 !important;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     .tools {
         display: grid;
