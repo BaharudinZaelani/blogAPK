@@ -546,3 +546,14 @@ pre em * * {
 .hljs-strong {
 	font-weight: bold;
 }
+
+.item-thumbnail-only {
+    display: grid;
+    grid-template-columns: 1fr 2.78fr;
+    justify-content: center;
+}
+.item-thumbnail a .img-thumbnail {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
